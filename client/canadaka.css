@@ -1,0 +1,17 @@
+/* CSS declarations go here */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-image: url(http://www.worldwisepublications.com/wp-content/uploads/2015/02/lake-louise-canada_113.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
