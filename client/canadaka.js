@@ -21,7 +21,7 @@ function getDiffString() {
   var diff = leaving - new Date();
   if (diff <= 0) {
     Meteor.clearInterval(interval);
-    Session.set('Weeeeeeeeeeeeeeee!!!');
+    Session.set('diff', 'Weeeeeeeeeeeeeeee!!!');
     return;
   }
   var days = getDays(diff);
